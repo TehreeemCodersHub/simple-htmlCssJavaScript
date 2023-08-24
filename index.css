@@ -17,6 +17,7 @@ nav .logo p {
     font-size: 30px;
     font-weight: bold;
     float: left;
+    padding-right: 30%;
     color: white;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -24,7 +25,7 @@ nav .logo p {
 
 }
 nav ul{
-    float:right;
+    float:flex;
 }
 
 nav li {
@@ -35,7 +36,7 @@ nav li {
 nav li a {
 font-size: 18px;
 text-transform: uppercase;
-padding: 0px 30px;
+padding: 0px 40px;
 color: white !important;
 text-decoration: none;
 }
