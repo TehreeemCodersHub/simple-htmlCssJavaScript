@@ -10,7 +10,7 @@ nav {
     background-color:#ff0000;
     padding: 0px 100px;
     position:fixed;
-    background-image: linear-gradient(red,yellow);
+    background-image: linear-gradient(6d6db5,00d4ff,020024);
 }
 .flex-container {
     display: flex;
@@ -20,6 +20,25 @@ nav {
     text-decoration: none;
     color: white;
     font-size:18px;
+}
+/* .body-image img {
+   width:100%;
+   height: 100vh;
+   background-size: cover;
+   background-position:center; 
+} */
+.main-image {
+    background-image: url(images/images.png);
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+
 }
 
 nav .logo p {
@@ -33,11 +52,18 @@ nav .logo p {
     cursor:pointer;
 
 }
-nav li {
- 
+nav li{
+    
     display: inline-block;
     list-style: none;
+    
 }
+/* .container-text h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+} */
 
 
 /*
