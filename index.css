@@ -12,6 +12,9 @@ nav {
     position:fixed;
     background-image: linear-gradient(red,yellow);
 }
+.flex-container {
+    display: flex;
+}
 
 nav .logo p {
     font-size: 30px;
@@ -24,19 +27,23 @@ nav .logo p {
     cursor:pointer;
 
 }
-nav ul{
-    float:flex;
-}
-
 nav li {
  
     display: inline-block;
     list-style: none;
 }
+
+.flex-container a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+}
+/*
 nav li a {
 font-size: 18px;
 text-transform: uppercase;
 padding: 0px 40px;
 color: white !important;
 text-decoration: none;
-}
+} */
