@@ -15,6 +15,12 @@ nav {
 .flex-container {
     display: flex;
 }
+.flex-container a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+}
 
 nav .logo p {
     font-size: 30px;
@@ -33,12 +39,7 @@ nav li {
     list-style: none;
 }
 
-.flex-container a {
-    padding: 20px;
-    text-decoration: none;
-    color: white;
-    font-size:18px;
-}
+
 /*
 nav li a {
 font-size: 18px;
